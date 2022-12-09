@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+::-webkit-scrollbar{
+    width: 11px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(0deg, rgba(51, 152, 119, 1) 0%, rgba(65, 166, 130, 1) 23%, rgba(208, 183, 0, 1) 100%); 
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+body{
+    background-image: url('https://st2.depositphotos.com/1963585/7111/v/600/depositphotos_71115633-stock-illustration-seamless-background-with-letters-of.jpg');
+
+}
+
+h1{
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 10px;
+}
+
+.base{
+    display: flex;
+    text-align: center;
+}
+
+#t4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opc button{
+    background: linear-gradient(0deg, rgba(51, 152, 119, 1) 0%, rgba(65, 166, 130, 1) 23%, rgba(208, 183, 0, 1) 100%); 
+    padding: 5%;
+    font-size: 35px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(54,54,54);
+    width: 80%;
+    color: rgb(54,54,54);
+}
+
+.opc button:hover{
+    background-color: rgb(40, 252, 252);
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+.opc p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7rem;
+    font-size: 13px;
+    margin-right: 2rem;
+}
+
+.opc div{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(255, 255, 255);
+    margin: 0.8rem;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 3px solid rgb(54,54,54);
+    justify-content: space-around;
+}
+
+.opc img{
+
+    max-height: 180px;
+    margin-left:10% ;
+    margin-right:4% ;
+    margin-top: 3rem;
+}
+
+.opc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    max-height: 340px;
+ 
+}
+a{
+    text-decoration: none;
+    color: rgb(54,54,54);
+}
+.opc>div>button:hover{
+    background-color: #000;
+}
+@media screen and (max-width:600px) {
+    .opc img{
+        max-height: 150px;
+    }
+  
+}
+@media screen and (max-width:407px){
+    .opc img{
+        width: 175px;
+        margin-left: 30%;
+    }
+}
